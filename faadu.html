@@ -1,0 +1,77 @@
+<!-- celebrate.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Mobile-friendly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>💖 I love you 💖</title>
+  <style>
+    /* === INTERNAL CSS === */
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;  /* keep content from centering vertically */
+      min-height: 100vh;
+      margin: 0;
+      padding: 1em;
+      background: #FFF0F5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+    }
+    h1 {
+      color: #C2185B;
+      font-size: 2rem;
+      margin: 0.5em 0;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #555;
+      margin: 0 0 1.5em;
+    }
+    img#celebrateGif {
+      max-width: 80%;      /* make it smaller on mobile */
+      max-height: 40vh;    /* cap height so text stays visible */
+      width: auto;
+      height: auto;
+      margin-bottom: 1.5em;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    #question {
+      font-size: 1.3rem;
+      color: #333;
+      margin: 1em 0 0.5em;
+    }
+    .btn {
+      padding: 10px 20px;
+      margin: 0.5em;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: transform 0.1s;
+    }
+    .btn:hover { transform: scale(1.05); }
+    #yesBtn {
+      background: #D10068;
+      color: #fff;
+    }
+    #noBtn {
+      background: #ccc;
+      color: #666;
+      pointer-events: none;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Celebration message -->
+  <h1>Jaldi aooooooooooooooo..mtlb nahi...aana toh mujhe hi chhaiyee..aati hun</h1>
+  <img id="celebrateGif" src="emoji-animated.gif" alt="Curious GIF">
+
+  
+</body>
+</html>
